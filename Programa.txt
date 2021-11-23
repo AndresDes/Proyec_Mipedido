@@ -1,3 +1,0 @@
-Import 1.exce
-int cedula
-String direccion;
