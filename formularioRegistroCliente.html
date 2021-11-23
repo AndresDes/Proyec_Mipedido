@@ -1,0 +1,69 @@
+<html lang="es">
+<head>
+    <title>Restaurante</title>
+    <meta charset="utf-8">
+
+
+</head>
+<body>
+    <h1>Restaurante-Mypedidoya</h1>
+    <h2>Registro Cliente</h2>
+    <form>
+
+        <h3>Datos Básicos</h3>
+        <H3>Tipo de documento</H3>
+        <select name="tipo_documento" id="tipo_documento">Tipo Documento
+        <option value="TI">Tarjeta de Identidad</option>
+        <option value="CC">Cedula Ciudadanía</option>
+        <option value="TI">Cedula Extranjería</option>
+        </select>
+
+        <h3></h3>
+        <label for="nombre">Cedula: </label>
+        <input type="text" name="cedula" id="cedula" maxlength="30">
+
+        <h3></h3>
+        <label for="nombre">Nombre Cliente: </label>
+        <input type="text" name="nombre" id="nombre" maxlength="30">
+
+        <h3>Password</h3>
+        <label for="clave">Contraseña: </label>
+        <input type="password" name="clave" id="clave" maxlength="9">
+
+        <h3>Confirme Password</h3>
+        <label for="clave">Contraseña: </label>
+        <input type="password" name="conf_clave" id="conf_clave" maxlength="9">
+
+        <h3>Dirección</h3>
+        <label for="direccion">Dirección Cliente: </label>
+        <input type="text" name="direccion" id="direccion" maxlength="30">
+
+        <h3>Número Celular</h3>
+        <label for="celular">Número Celular: </label>
+        <input type="text" name="celular" id="celular" maxlength="30">
+
+        <h3>Fecha nacimiento: </h3>
+        <label for="fecha">fecha: </label>
+        <input type="date" name="fecha" id="fecha">
+
+        <h3>Genero</h3>
+        <label for="genero">Genero</label>
+        <input type="radio" name="genero" id="genero" value="F">Femenino
+        <input type="radio" name="genero" id="genero" value="M">Masculino
+
+        <h3>Cantidad de Hijos</h3>
+        <label for="cantidad">Cantidad de Hijos: </label>
+        <input type="number" name="cantidad" id="cantidad" min="0" max="20" step="1">
+        
+        <br><br><br>
+        <h3>by Carlos Villamil</h3>
+
+        
+    
+
+    </form>
+
+</body>
+
+
+</html>
